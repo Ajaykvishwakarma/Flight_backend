@@ -11,7 +11,7 @@ const { register, login } = require('./controllers/user.controller');
 const app = express();
 app.use(express.json())
 app.use(cors({
-    origin: 'http://localhost:3000/'
+    origin: 'http://localhost:3000'
 }))
 
 const port = process.env.PORT || 5000
